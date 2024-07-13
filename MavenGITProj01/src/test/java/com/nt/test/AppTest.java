@@ -31,8 +31,8 @@ public class AppTest {
 	{
 		Arithmetic ar=new Arithmetic();
 		System.out.println("AppTest.testWithNegative()");
-		int actual=ar.sum(-50,20);
-		int expected=-30;
+		int actual=ar.sum(-150,20);
+		int expected=-120;
 		assertEquals(expected,actual);
 	}
 
