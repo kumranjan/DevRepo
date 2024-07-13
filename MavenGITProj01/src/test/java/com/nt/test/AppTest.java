@@ -26,5 +26,10 @@ public class AppTest {
 		int expected=-30;
 		assertEquals(expected,actual);
 	}
+	@Test
+	public void testWithMixed()
+	{
+		
+	}
 
 }
