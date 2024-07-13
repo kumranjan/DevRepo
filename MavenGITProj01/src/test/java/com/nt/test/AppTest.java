@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import com.nt.main.Arithmetic;
+import com.nt.service.Arithmetic;
 
 public class AppTest {
 	
