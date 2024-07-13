@@ -17,5 +17,14 @@ public class AppTest {
 		int expected=30;
 		assertEquals(actual,expected);
 	}
+	@Test
+	public void testWithNegative()
+	{
+		Arithmetic ar=new Arithmetic();
+		System.out.println("AppTest.testWithNegative()");
+		int actual=ar.sum(-10,-20);
+		int expected=-30;
+		assertEquals(expected,actual);
+	}
 
 }
