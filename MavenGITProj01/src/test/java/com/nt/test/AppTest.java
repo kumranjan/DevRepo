@@ -29,7 +29,11 @@ public class AppTest {
 	@Test
 	public void testWithMixed()
 	{
-		
+		Arithmetic ar=new Arithmetic();
+		System.out.println("AppTest.testWithNegative()");
+		int actual=ar.sum(-50,20);
+		int expected=-30;
+		assertEquals(expected,actual);
 	}
 
 }
